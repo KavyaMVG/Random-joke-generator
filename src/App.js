@@ -1,22 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import axios from "axios";
 
 function App() {
+  const [jokes, setJokes] = useState("");
+
+  const getJokes = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.get("https://icanhazdadjoke.com/", {
+        headers: {
+          Accept: "application/json",
+        },
+      });
+      console.log(response);
+      setJokes(response.data.joke);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Jokes Generator</h1>
+        <p className="text">{jokes}</p>
+        <button className="btn" onClick={(e) => getJokes(e)}>
+          Generate Joke
+        </button>
       </header>
     </div>
   );
