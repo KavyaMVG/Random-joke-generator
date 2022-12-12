@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Random Jokes Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application that generates random jokes
 
-## Available Scripts
+## Technology used
 
-In the project directory, you can run:
+React JS
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Generates joke
+- Reponsiveness
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Joke](./assets/jokes.png)
 
-### `npm test`
+## Mobile view
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![joke](./assets/joke-mobile.png)
 
-### `npm run build`
+## To run the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the project <br>
+  `https://github.com/KavyaMVG/Random-joke-generator`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Install dependencies <br>
+  `npm install` <br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Run the project <br>
+  `npm start`
 
-### `npm run eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<a href="https://github.com/kavyamvg"> <img src="https://github.com/kavyamvg.png" alt="Kavya M V" style="width:50px;"/></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Want to contribute? Great!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To fix a bug or enhance an existing module, follow these steps:
 
-## Learn More
+- Fork the repo
+- Make the appropriate changes in the files
+- Commit your changes (`git commit -m 'Message goes here'`)
+- Push to the branch (`git push`)
+- Create a Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Bug / Feature Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you find a bug or to request a new feature, kindly open an issue [here](https://github.com/KavyaMVG/Random-joke-generator/issues/new).
