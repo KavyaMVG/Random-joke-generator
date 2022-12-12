@@ -17,6 +17,8 @@ React JS
 
 ![joke](./assets/joke-mobile.png)
 
+[![Demo](https://img.shields.io/badge/See%20Demo-Visit-green?style=for-the-badge&logo=web)](https://vercel.com/kav32/random-joke-generator)
+
 ## To run the application
 
 - Clone the project <br>
