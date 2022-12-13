@@ -29,7 +29,6 @@ function App() {
           Accept: "application/json",
         },
       });
-      console.log(response);
       setJokes(response.data.joke);
     } catch (err) {
       console.log(err);
@@ -41,7 +40,7 @@ function App() {
       <header className="App-header">
         <h1>Jokes Generator</h1>
         <p className="text">{jokes}</p>
-        <button className="btn" onClick={(e) => getJokes(e)}>
+        <button style={{cursor: "pointer"}} className="btn" onClick={(e) => getJokes(e)}>
           Generate Joke
         </button>
       </header>
